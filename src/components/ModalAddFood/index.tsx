@@ -5,6 +5,11 @@ import { Form } from './styles';
 import Modal from '../Modal';
 import Input from '../Input';
 
+
+export default function ModalAddFood ({}: ModalAddFoodProps) {
+
+}
+
 class ModalAddFood extends Component {
   constructor(props) {
     super(props);
