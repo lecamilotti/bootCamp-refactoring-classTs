@@ -4,9 +4,13 @@ import Routes from './routes';
 
 import GlobalStyle from './styles/global';
 
+interface AppProps {
+  GlobalStyle: any;
+}
+
 const App = () => (
   <>
-    <GlobalStyle />
+    <GlobalStyle <AppProps>/>
     <Router>
       <Routes />
     </Router>
