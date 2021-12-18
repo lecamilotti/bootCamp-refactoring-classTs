@@ -34,7 +34,7 @@ export default function Dashboard () {
       const response = await api.get('/foods');
       setFoods(response.data);
     }
-    getFood()
+    getFood();
   }, []);
   const handleAddFood = async(food: addFoodProps): Promise<void> => {
     try {
